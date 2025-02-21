@@ -42,3 +42,30 @@ The API will be available at http://0.0.0.0:8000
 - Method: POST
 - Parameters:
   image (file): An image (JPEG or PNG formats) with a frame from an anime.
+
+## Example request using curl:
+
+```bash
+curl -X POST "http://0.0.0.0:8000/search" -F "image=@path_to_your_image.jpg"
+```
+
+## Sample answer:
+
+```bash
+{
+  "result": [
+    {
+      "anilist": 12345,
+      "filename": "example.jpg",
+      "episode": 1,
+      "from": 10.5,
+      "to": 12.0,
+      "similarity": 0.9876,
+      "video": "https://example.com/video.mp4",
+      "image": "https://example.com/image.jpg"
+    }
+  ]
+}
+```
+
+## Author: Saykachi Version: 1a Date: 02/21/2025
