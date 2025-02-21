@@ -14,8 +14,8 @@ Sora Search API is a REST API for searching anime by frames, using the third-par
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/anime_search_api.git
-    cd anime_search_api
+    git clone https://github.com/saykachi/Sora-Search-API.git
+    cd Sora-Search-API
     ```
 
 2. **Install dependencies:**
