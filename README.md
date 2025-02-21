@@ -38,3 +38,7 @@ The API will be available at http://0.0.0.0:8000
 
 ## Endpoint for searching anime
 
+- URL: /search
+- Method: POST
+- Parameters:
+  image (file): An image (JPEG or PNG formats) with a frame from an anime.
