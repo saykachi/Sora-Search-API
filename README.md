@@ -2,7 +2,7 @@
 
 Sora Search API is a REST API for searching anime by frames, using the third-party API trace.moe.
 
-## Functionality
+## <img src="https://cdn.discordapp.com/emojis/1009754836314628146.gif" width="25px" height="25px" Functionality
 
 - **Anime recognition by frame:** The API takes an image and returns information about the anime using the external API trace.moe.
 - **REST API:** Implemented using FastAPI.
