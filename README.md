@@ -8,4 +8,26 @@ Sora Search API is a REST API for searching anime by frames, using the third-par
 - **REST API:** Implemented using FastAPI.
 - **Integration with trace.moe:** Send an image to get search results.
 
-## Project structure
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/anime_search_api.git
+    cd anime_search_api
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Project launch
+
+Start a server using Uvicorn:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
